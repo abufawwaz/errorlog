@@ -1,11 +1,9 @@
 package com.myfawwaz.android.jawa.widget.presentation.main.components
 
-import android.os.Build
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.myfawwaz.android.jawa.widget.presentation.calendarlib.ExampleHeatMap
 import com.myfawwaz.android.jawa.widget.presentation.main.DashboardScreen
 import com.myfawwaz.android.jawa.widget.presentation.main.SettingsScreen
 import com.myfawwaz.android.jawa.widget.presentation.main.SpacesScreen

@@ -1,8 +1,8 @@
 package com.myfawwaz.android.jawa.widget.domain.use_case.notes
 
 import com.myfawwaz.android.jawa.widget.domain.repository.NoteRepository
-import com.myfawwaz.app.mybrain.util.settings.Order
-import com.myfawwaz.app.mybrain.util.settings.OrderType
+import com.myfawwaz.android.jawa.widget.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.OrderType
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 

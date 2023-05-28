@@ -6,7 +6,7 @@ import android.content.Context
 import android.content.Intent
 import com.myfawwaz.android.jawa.widget.domain.model.Task
 import com.myfawwaz.android.jawa.widget.domain.repository.TaskRepository
-import com.myfawwaz.app.mybrain.presentation.glance_widgets.TasksWidgetReceiver
+import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.TasksWidgetReceiver
 import javax.inject.Inject
 
 class AddTaskUseCase @Inject constructor(

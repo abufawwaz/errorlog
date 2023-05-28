@@ -7,7 +7,7 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import com.myfawwaz.android.jawa.widget.domain.model.Alarm
 import com.myfawwaz.android.jawa.widget.domain.model.Task
@@ -16,11 +16,11 @@ import com.myfawwaz.android.jawa.widget.domain.use_case.alarm.DeleteAlarmUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.GetSettingsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.SaveSettingsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.tasks.*
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.Order
-import com.myfawwaz.app.mybrain.util.settings.OrderType
-import com.myfawwaz.app.mybrain.util.settings.toInt
-import com.myfawwaz.app.mybrain.util.settings.toOrder
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.OrderType
+import com.myfawwaz.android.jawa.widget.util.settings.toInt
+import com.myfawwaz.android.jawa.widget.util.settings.toOrder
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*

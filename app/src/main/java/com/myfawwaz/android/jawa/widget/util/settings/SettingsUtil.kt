@@ -3,7 +3,7 @@ package com.myfawwaz.android.jawa.widget.util.settings
 import androidx.annotation.StringRes
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import com.myfawwaz.android.jawa.widget.ui.theme.Green
 import com.myfawwaz.android.jawa.widget.ui.theme.Orange

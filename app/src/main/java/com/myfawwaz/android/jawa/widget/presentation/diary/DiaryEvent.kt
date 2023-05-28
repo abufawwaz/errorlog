@@ -1,7 +1,7 @@
 package com.myfawwaz.android.jawa.widget.presentation.diary
 
 import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
-import com.myfawwaz.app.mybrain.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.Order
 
 sealed class DiaryEvent {
     data class AddEntry(val entry: DiaryEntry) : DiaryEvent()

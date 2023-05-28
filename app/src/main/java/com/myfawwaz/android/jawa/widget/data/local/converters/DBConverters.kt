@@ -1,10 +1,10 @@
-package com.myfawwaz.app.mybrain.data.local.converters
+package com.myfawwaz.android.jawa.widget.data.local.converters
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.myfawwaz.app.mybrain.domain.model.SubTask
-import com.myfawwaz.app.mybrain.util.diary.Mood
+import com.myfawwaz.android.jawa.widget.domain.model.SubTask
+import com.myfawwaz.android.jawa.widget.util.diary.Mood
 
 class DBConverters {
 

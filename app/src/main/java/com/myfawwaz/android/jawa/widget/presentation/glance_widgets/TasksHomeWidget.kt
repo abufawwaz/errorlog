@@ -16,8 +16,11 @@ import com.myfawwaz.android.jawa.widget.domain.model.Task
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.GetSettingsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.tasks.GetAllTasksUseCase
 import com.myfawwaz.android.jawa.widget.presentation.tasks.TasksHomeScreenWidget
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.*
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.OrderType
+import com.myfawwaz.android.jawa.widget.util.settings.toInt
+import com.myfawwaz.android.jawa.widget.util.settings.toOrder
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.first

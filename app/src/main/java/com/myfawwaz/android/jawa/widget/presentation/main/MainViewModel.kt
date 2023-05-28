@@ -16,10 +16,10 @@ import com.myfawwaz.android.jawa.widget.domain.use_case.diary.GetAllEntriesUseCa
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.GetSettingsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.tasks.GetAllTasksUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.tasks.UpdateTaskUseCase
-import com.myfawwaz.app.mybrain.ui.theme.Rubik
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.date.inTheLastWeek
-import com.myfawwaz.app.mybrain.util.settings.*
+import com.myfawwaz.android.jawa.widget.ui.theme.Rubik
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.date.inTheLastWeek
+import com.myfawwaz.android.jawa.widget.util.settings.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*

@@ -16,7 +16,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import com.myfawwaz.android.jawa.widget.presentation.tasks.AnimatedTabIndicator
 

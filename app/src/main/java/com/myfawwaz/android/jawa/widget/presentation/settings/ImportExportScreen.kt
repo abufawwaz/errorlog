@@ -1,5 +1,6 @@
 package com.myfawwaz.android.jawa.widget.presentation.settings
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -24,12 +25,13 @@ import androidx.compose.ui.unit.dp
 import androidx.work.*
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberPermissionState
-import com.myfawwaz.app.mybrain.R
-import com.myfawwaz.android.jawa.widget.app.MyBrainApplication
+import com.myfawwaz.android.jawa.widget.R
+import com.myfawwaz.android.jawa.widget.app.MyAppRoaita
 import com.myfawwaz.android.jawa.widget.data.backup.ExportWorker
 import com.myfawwaz.android.jawa.widget.data.backup.ImportWorker
 import java.util.UUID
 
+@SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
 fun ImportExportScreen() {
@@ -38,7 +40,7 @@ fun ImportExportScreen() {
         android.Manifest.permission.WRITE_EXTERNAL_STORAGE
     )
     val workManager = remember {
-        WorkManager.getInstance(MyBrainApplication.appContext)
+        WorkManager.getInstance(MyAppRoaita.appContext)
     }
     val exportRequest by remember {
         derivedStateOf {
@@ -92,10 +94,10 @@ fun ImportExportScreen() {
                         val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
                         intent.data = Uri.fromParts(
                             "package",
-                            MyBrainApplication.appContext.packageName,
+                            MyAppRoaita.appContext.packageName,
                             null
                         )
-                        MyBrainApplication.appContext.startActivity(intent)
+                        MyAppRoaita.appContext.startActivity(intent)
                     } else {
                         workManager.enqueueUniqueWork(
                             "export",

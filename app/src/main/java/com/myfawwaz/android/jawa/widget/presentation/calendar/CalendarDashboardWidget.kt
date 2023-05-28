@@ -21,9 +21,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberPermissionState
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
-import com.myfawwaz.app.mybrain.ui.theme.LightGray
+import com.myfawwaz.android.jawa.widget.ui.theme.LightGray
 
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable

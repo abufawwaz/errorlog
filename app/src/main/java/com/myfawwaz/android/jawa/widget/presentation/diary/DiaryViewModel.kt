@@ -10,8 +10,11 @@ import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
 import com.myfawwaz.android.jawa.widget.domain.use_case.diary.*
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.GetSettingsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.SaveSettingsUseCase
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.*
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.OrderType
+import com.myfawwaz.android.jawa.widget.util.settings.toInt
+import com.myfawwaz.android.jawa.widget.util.settings.toOrder
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn

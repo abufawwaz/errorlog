@@ -3,7 +3,7 @@ package com.myfawwaz.android.jawa.widget.domain.model
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.myfawwaz.app.mybrain.util.diary.Mood
+import com.myfawwaz.android.jawa.widget.util.diary.Mood
 
 @Entity(tableName = "diary")
 data class DiaryEntry(

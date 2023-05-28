@@ -1,6 +1,4 @@
-package com.myfawwaz.app.mybrain.ui
-
-import androidx.compose.ui.res.stringResource
+package com.myfawwaz.android.jawa.widget.ui
 
 class MaxTextLenght {
     fun  MaxTextLenghtText(StringResult: String, maxlenght:Int) {

@@ -22,8 +22,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
-import com.myfawwaz.app.mybrain.util.diary.Mood
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.util.diary.Mood
+import com.myfawwaz.android.jawa.widget.R
 
 @Composable
 fun MoodFlowChart(

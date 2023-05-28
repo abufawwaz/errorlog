@@ -1,8 +1,8 @@
-package com.myfawwaz.app.mybrain.data.repository
+package com.myfawwaz.android.jawa.widget.data.repository
 
-import com.myfawwaz.app.mybrain.data.local.dao.TaskDao
-import com.myfawwaz.app.mybrain.domain.model.Task
-import com.myfawwaz.app.mybrain.domain.repository.TaskRepository
+import com.myfawwaz.android.jawa.widget.data.local.dao.TaskDao
+import com.myfawwaz.android.jawa.widget.domain.model.Task
+import com.myfawwaz.android.jawa.widget.domain.repository.TaskRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

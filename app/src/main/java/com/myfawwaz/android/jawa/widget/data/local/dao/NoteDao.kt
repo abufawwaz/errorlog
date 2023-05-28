@@ -1,8 +1,8 @@
-package com.myfawwaz.app.mybrain.data.local.dao
+package com.myfawwaz.android.jawa.widget.data.local.dao
 
 import androidx.room.*
-import com.myfawwaz.app.mybrain.domain.model.Note
-import com.myfawwaz.app.mybrain.domain.model.NoteFolder
+import com.myfawwaz.android.jawa.widget.domain.model.Note
+import com.myfawwaz.android.jawa.widget.domain.model.NoteFolder
 import kotlinx.coroutines.flow.Flow
 
 @Dao

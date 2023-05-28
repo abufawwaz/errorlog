@@ -4,7 +4,7 @@ import android.content.Intent
 import android.service.quicksettings.TileService
 import androidx.core.net.toUri
 import com.myfawwaz.android.jawa.widget.presentation.main.MainActivity
-import com.myfawwaz.app.mybrain.util.Constants
+import com.myfawwaz.android.jawa.widget.util.Constants
 
 class AddTaskTileService: TileService() {
 

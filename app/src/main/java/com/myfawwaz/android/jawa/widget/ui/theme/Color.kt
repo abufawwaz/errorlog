@@ -1,4 +1,4 @@
-package com.myfawwaz.app.mybrain.ui.theme
+package com.myfawwaz.android.jawa.widget.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

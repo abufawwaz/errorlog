@@ -31,13 +31,13 @@ import androidx.navigation.NavHostController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberPermissionState
 import com.google.gson.Gson
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Calendar
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
-import com.myfawwaz.app.mybrain.util.calendar.*
-import com.myfawwaz.app.mybrain.util.date.HOUR_IN_MILLIS
-import com.myfawwaz.app.mybrain.util.date.formatDate
-import com.myfawwaz.app.mybrain.util.date.formatTime
+import com.myfawwaz.android.jawa.widget.util.calendar.*
+import com.myfawwaz.android.jawa.widget.util.date.HOUR_IN_MILLIS
+import com.myfawwaz.android.jawa.widget.util.date.formatDate
+import com.myfawwaz.android.jawa.widget.util.date.formatTime
 import java.net.URLDecoder
 import java.nio.charset.StandardCharsets
 

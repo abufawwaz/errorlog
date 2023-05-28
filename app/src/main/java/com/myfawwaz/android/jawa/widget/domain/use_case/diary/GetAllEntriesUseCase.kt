@@ -2,8 +2,8 @@ package com.myfawwaz.android.jawa.widget.domain.use_case.diary
 
 import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
 import com.myfawwaz.android.jawa.widget.domain.repository.DiaryRepository
-import com.myfawwaz.app.mybrain.util.settings.Order
-import com.myfawwaz.app.mybrain.util.settings.OrderType
+import com.myfawwaz.android.jawa.widget.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

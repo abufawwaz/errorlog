@@ -17,10 +17,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Bookmark
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.util.bookmarks.isValidUrl
+import com.myfawwaz.android.jawa.widget.util.bookmarks.isValidUrl
 
 @Composable
 fun BookmarkDetailsScreen(

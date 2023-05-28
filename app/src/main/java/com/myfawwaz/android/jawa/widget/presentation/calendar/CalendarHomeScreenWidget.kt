@@ -21,7 +21,7 @@ import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.AddEventActi
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.GoToSettingsAction
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.NavigateToCalendarAction
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.RefreshCalendarAction
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 
 @Composable
 fun CalendarHomeScreenWidget(

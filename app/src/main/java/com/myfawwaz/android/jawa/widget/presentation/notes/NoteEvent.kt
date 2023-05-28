@@ -2,8 +2,8 @@ package com.myfawwaz.android.jawa.widget.presentation.notes
 
 import com.myfawwaz.android.jawa.widget.domain.model.Note
 import com.myfawwaz.android.jawa.widget.domain.model.NoteFolder
-import com.myfawwaz.app.mybrain.util.settings.ItemView
-import com.myfawwaz.app.mybrain.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.ItemView
+import com.myfawwaz.android.jawa.widget.util.settings.Order
 
 sealed class NoteEvent {
     data class GetNote(val noteId: Int) : NoteEvent()

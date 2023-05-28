@@ -1,9 +1,9 @@
-package com.myfawwaz.app.mybrain.data.repository
+package com.myfawwaz.android.jawa.widget.data.repository
 
-import com.myfawwaz.app.mybrain.data.local.dao.NoteDao
-import com.myfawwaz.app.mybrain.domain.model.Note
-import com.myfawwaz.app.mybrain.domain.model.NoteFolder
-import com.myfawwaz.app.mybrain.domain.repository.NoteRepository
+import com.myfawwaz.android.jawa.widget.data.local.dao.NoteDao
+import com.myfawwaz.android.jawa.widget.domain.model.Note
+import com.myfawwaz.android.jawa.widget.domain.model.NoteFolder
+import com.myfawwaz.android.jawa.widget.domain.repository.NoteRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

@@ -1,6 +1,6 @@
 package com.myfawwaz.android.jawa.widget.presentation.util
 
-import com.myfawwaz.app.mybrain.util.Constants
+import com.myfawwaz.android.jawa.widget.util.Constants
 
 sealed class Screen(val route: String) {
     object Main : Screen("main_screen")

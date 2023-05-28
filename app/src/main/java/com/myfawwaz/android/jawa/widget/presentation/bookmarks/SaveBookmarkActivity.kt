@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Bookmark
-import com.myfawwaz.app.mybrain.util.bookmarks.isValidUrl
+import com.myfawwaz.android.jawa.widget.util.bookmarks.isValidUrl
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

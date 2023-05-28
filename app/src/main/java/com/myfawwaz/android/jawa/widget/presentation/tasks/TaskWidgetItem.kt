@@ -19,17 +19,16 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextDecoration
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Task
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.CompleteTaskAction
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.TaskWidgetItemClickAction
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.completed
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.taskId
-import com.myfawwaz.app.mybrain.presentation.glance_widgets.*
-import com.myfawwaz.app.mybrain.util.date.formatDateDependingOnDay
-import com.myfawwaz.app.mybrain.util.date.isDueDateOverdue
-import com.myfawwaz.app.mybrain.util.settings.Priority
-import com.myfawwaz.app.mybrain.util.settings.toPriority
+import com.myfawwaz.android.jawa.widget.util.date.formatDateDependingOnDay
+import com.myfawwaz.android.jawa.widget.util.date.isDueDateOverdue
+import com.myfawwaz.android.jawa.widget.util.settings.Priority
+import com.myfawwaz.android.jawa.widget.util.settings.toPriority
 
 @Composable
 fun TaskWidgetItem(

@@ -1,7 +1,7 @@
 package com.myfawwaz.android.jawa.widget.util.date
 
 import android.text.format.DateUtils
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import java.text.SimpleDateFormat
 import java.util.*

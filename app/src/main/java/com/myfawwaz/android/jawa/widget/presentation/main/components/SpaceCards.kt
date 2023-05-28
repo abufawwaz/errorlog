@@ -14,14 +14,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.myfawwaz.app.mybrain.ui.theme.Blue
-import com.myfawwaz.app.mybrain.R
-import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.ui.theme.Purple
+import com.myfawwaz.android.jawa.widget.ui.theme.Blue
+import com.myfawwaz.android.jawa.widget.R
+import com.myfawwaz.android.jawa.widget.ui.theme.Purple
 
 @Composable
 fun SpaceRegularCard(

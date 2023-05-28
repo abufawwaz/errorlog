@@ -1,8 +1,8 @@
-package com.myfawwaz.app.mybrain.data.repository
+package com.myfawwaz.android.jawa.widget.data.repository
 
-import com.myfawwaz.app.mybrain.data.local.dao.BookmarkDao
-import com.myfawwaz.app.mybrain.domain.model.Bookmark
-import com.myfawwaz.app.mybrain.domain.repository.BookmarkRepository
+import com.myfawwaz.android.jawa.widget.data.local.dao.BookmarkDao
+import com.myfawwaz.android.jawa.widget.domain.model.Bookmark
+import com.myfawwaz.android.jawa.widget.domain.repository.BookmarkRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

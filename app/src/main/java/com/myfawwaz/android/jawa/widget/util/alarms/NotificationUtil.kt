@@ -7,7 +7,7 @@ import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.TaskStackBuilder
 import androidx.core.net.toUri
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import com.myfawwaz.android.jawa.widget.domain.model.Task
 import com.myfawwaz.android.jawa.widget.presentation.main.MainActivity

@@ -20,9 +20,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Task
-import com.myfawwaz.app.mybrain.ui.theme.LightGray
+import com.myfawwaz.android.jawa.widget.ui.theme.LightGray
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

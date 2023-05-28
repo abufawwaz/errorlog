@@ -1,6 +1,6 @@
 package com.myfawwaz.android.jawa.widget.util.calendar
 
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.app.getString
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 

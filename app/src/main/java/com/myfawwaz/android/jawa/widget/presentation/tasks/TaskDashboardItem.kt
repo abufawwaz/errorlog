@@ -21,11 +21,11 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Task
-import com.myfawwaz.app.mybrain.util.date.formatDateDependingOnDay
-import com.myfawwaz.app.mybrain.util.date.isDueDateOverdue
-import com.myfawwaz.app.mybrain.util.settings.toPriority
+import com.myfawwaz.android.jawa.widget.util.date.formatDateDependingOnDay
+import com.myfawwaz.android.jawa.widget.util.date.isDueDateOverdue
+import com.myfawwaz.android.jawa.widget.util.settings.toPriority
 
 @Composable
 fun TaskDashboardItem(

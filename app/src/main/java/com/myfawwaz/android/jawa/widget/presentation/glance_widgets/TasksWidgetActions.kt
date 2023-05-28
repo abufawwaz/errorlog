@@ -7,7 +7,7 @@ import androidx.glance.GlanceId
 import androidx.glance.action.ActionParameters
 import androidx.glance.appwidget.action.ActionCallback
 import com.myfawwaz.android.jawa.widget.presentation.main.MainActivity
-import com.myfawwaz.app.mybrain.util.Constants
+import com.myfawwaz.android.jawa.widget.util.Constants
 
 class AddTaskAction : ActionCallback {
     override suspend fun onAction(context: Context, glanceId: GlanceId, parameters: ActionParameters) {

@@ -1,7 +1,7 @@
-package com.myfawwaz.app.mybrain.data.local.dao
+package com.myfawwaz.android.jawa.widget.data.local.dao
 
 import androidx.room.*
-import com.myfawwaz.app.mybrain.domain.model.Alarm
+import com.myfawwaz.android.jawa.widget.domain.model.Alarm
 
 @Dao
 interface AlarmDao {

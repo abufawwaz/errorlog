@@ -16,12 +16,12 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.myfawwaz.android.jawa.widget.presentation.calendarlib.ExampleHeatMap
+import com.myfawwaz.android.jawa.widget.presentation.calendarlib.CalViewContent
 import com.myfawwaz.android.jawa.widget.presentation.main.MainViewModel
 
 import com.myfawwaz.android.jawa.widget.presentation.util.ScreenNav
 
-import com.myfawwaz.app.mybrain.ui.theme.MyAppTheme
+import com.myfawwaz.android.jawa.widget.ui.theme.MyAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @OptIn(ExperimentalAnimationApi::class)
@@ -50,6 +50,7 @@ class MainActivityLatihan : ComponentActivity() {
                     //ExampleHeatMap(mainNavController)
                     //PagerWithTabs()
                     //VerticalPagerSample()
+                    CalViewContent()
 
                 }
             }

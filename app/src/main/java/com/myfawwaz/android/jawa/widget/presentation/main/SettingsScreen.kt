@@ -17,15 +17,15 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.myfawwaz.app.mybrain.BuildConfig
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.BuildConfig
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.presentation.settings.SettingsBasicLinkItem
 import com.myfawwaz.android.jawa.widget.presentation.settings.SettingsItemCard
 import com.myfawwaz.android.jawa.widget.presentation.settings.SettingsViewModel
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.ui.theme.Rubik
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.*
+import com.myfawwaz.android.jawa.widget.ui.theme.Rubik
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.*
 
 @Composable
 fun SettingsScreen(

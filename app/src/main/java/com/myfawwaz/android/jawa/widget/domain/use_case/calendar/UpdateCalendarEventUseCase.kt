@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.Intent
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 import com.myfawwaz.android.jawa.widget.domain.repository.CalendarRepository
-import com.myfawwaz.app.mybrain.presentation.glance_widgets.RefreshCalendarWidgetReceiver
+import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.RefreshCalendarWidgetReceiver
 import javax.inject.Inject
 
 class UpdateCalendarEventUseCase @Inject constructor(

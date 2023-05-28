@@ -20,11 +20,11 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.google.accompanist.flowlayout.FlowRow
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Note
 import com.myfawwaz.android.jawa.widget.domain.model.NoteFolder
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.ui.theme.Orange
+import com.myfawwaz.android.jawa.widget.ui.theme.Orange
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")

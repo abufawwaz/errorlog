@@ -24,9 +24,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.util.diary.Mood
-import com.myfawwaz.app.mybrain.R
-import com.myfawwaz.app.mybrain.util.date.fullDate
+import com.myfawwaz.android.jawa.widget.util.diary.Mood
+import com.myfawwaz.android.jawa.widget.R
+import com.myfawwaz.android.jawa.widget.util.date.fullDate
 import java.util.*
 
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")

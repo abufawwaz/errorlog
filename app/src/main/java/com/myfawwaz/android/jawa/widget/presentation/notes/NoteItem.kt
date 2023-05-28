@@ -16,9 +16,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Note
-import com.myfawwaz.app.mybrain.ui.theme.Orange
+import com.myfawwaz.android.jawa.widget.ui.theme.Orange
 import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @Composable

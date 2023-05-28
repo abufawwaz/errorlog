@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Task
-import com.myfawwaz.app.mybrain.presentation.tasks.TaskEvent
-import com.myfawwaz.app.mybrain.presentation.tasks.TasksViewModel
+import com.myfawwaz.android.jawa.widget.presentation.tasks.TaskEvent
+import com.myfawwaz.android.jawa.widget.presentation.tasks.TasksViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

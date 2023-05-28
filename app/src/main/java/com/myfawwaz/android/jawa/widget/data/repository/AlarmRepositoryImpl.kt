@@ -1,8 +1,8 @@
-package com.myfawwaz.app.mybrain.data.repository
+package com.myfawwaz.android.jawa.widget.data.repository
 
-import com.myfawwaz.app.mybrain.data.local.dao.AlarmDao
-import com.myfawwaz.app.mybrain.domain.model.Alarm
-import com.myfawwaz.app.mybrain.domain.repository.AlarmRepository
+import com.myfawwaz.android.jawa.widget.data.local.dao.AlarmDao
+import com.myfawwaz.android.jawa.widget.domain.model.Alarm
+import com.myfawwaz.android.jawa.widget.domain.repository.AlarmRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

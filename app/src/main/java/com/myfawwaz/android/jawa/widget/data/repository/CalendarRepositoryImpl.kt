@@ -1,4 +1,4 @@
-package com.myfawwaz.app.mybrain.data.repository
+package com.myfawwaz.android.jawa.widget.data.repository
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -6,10 +6,13 @@ import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import android.provider.CalendarContract
-import com.myfawwaz.app.mybrain.domain.model.Calendar
-import com.myfawwaz.app.mybrain.domain.model.CalendarEvent
-import com.myfawwaz.app.mybrain.domain.repository.CalendarRepository
-import com.myfawwaz.app.mybrain.util.calendar.*
+import com.myfawwaz.android.jawa.widget.domain.model.Calendar
+import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
+import com.myfawwaz.android.jawa.widget.domain.repository.CalendarRepository
+import com.myfawwaz.android.jawa.widget.util.calendar.extractEndFromDuration
+import com.myfawwaz.android.jawa.widget.util.calendar.extractFrequency
+import com.myfawwaz.android.jawa.widget.util.calendar.getEventDuration
+import com.myfawwaz.android.jawa.widget.util.calendar.getEventRRule
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.util.*
@@ -66,7 +69,9 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
                     val description: String? = cur.getString(DESC_INDEX)
                     val start: Long = cur.getLong(START_INDEX)
                     val duration: String = cur.getString(EVENT_DURATION_INDEX) ?: ""
-                    val end: Long = if (duration.isNotBlank()) duration.extractEndFromDuration(start) else cur.getLong(END_INDEX)
+                    val end: Long = if (duration.isNotBlank()) duration.extractEndFromDuration(start) else cur.getLong(
+                        END_INDEX
+                    )
                     val location: String? = cur.getString(LOCATION_INDEX)
                     val allDay: Boolean = cur.getInt(ALL_DAY_INDEX) == 1
                     val color: Int = cur.getInt(COlOR_INDEX)
@@ -77,7 +82,8 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
 //                    val frequency: String = rrule.extractFrequency()
 
                     if (!recurring)
-                        events.add(CalendarEvent(
+                        events.add(
+                            CalendarEvent(
                         id = eventId ,
                         title = title,
                         description = description,
@@ -87,7 +93,8 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
                         allDay = allDay,
                         color = if (color != 0) color else calendarColor,
                         calendarId = calendarId,
-                    ))
+                    )
+                        )
                 }
                 cur.close()
             }
@@ -110,7 +117,9 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
                     val description: String? = curI.getString(DESC_INDEX)
                     val start: Long = curI.getLong(START_INDEX)
                     val duration: String = curI.getString(EVENT_DURATION_INDEX) ?: ""
-                    val end: Long = if (duration.isNotBlank()) duration.extractEndFromDuration(start) else curI.getLong(END_INDEX)
+                    val end: Long = if (duration.isNotBlank()) duration.extractEndFromDuration(start) else curI.getLong(
+                        END_INDEX
+                    )
                     val location: String? = curI.getString(LOCATION_INDEX)
                     val allDay: Boolean = curI.getInt(ALL_DAY_INDEX) == 1
                     val color: Int = curI.getInt(COlOR_INDEX)
@@ -120,7 +129,8 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
                     val recurring: Boolean = rrule.isNotBlank()
                     val frequency: String = rrule.extractFrequency()
                     if (recurring)
-                    events.add(CalendarEvent(
+                    events.add(
+                        CalendarEvent(
                         id = eventId,
                         title = title,
                         description = description,
@@ -132,7 +142,8 @@ class CalendarRepositoryImpl(private val context: Context) : CalendarRepository 
                         calendarId = calendarId,
                         frequency = frequency,
                         recurring = true,
-                    ))
+                    )
+                    )
                 }
                 curI.close()
             }

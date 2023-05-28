@@ -1,6 +1,7 @@
 package com.myfawwaz.android.jawa.widget.presentation.main
 
 import android.annotation.SuppressLint
+import android.os.Build
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,15 +16,16 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import com.google.gson.Gson
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 import com.myfawwaz.android.jawa.widget.presentation.calendar.CalendarDashboardWidget
+import com.myfawwaz.android.jawa.widget.presentation.calendarlib.HeatMapCal
 import com.myfawwaz.android.jawa.widget.presentation.diary.MoodCircularBar
 import com.myfawwaz.android.jawa.widget.presentation.main.components.SpaceWideCard
 import com.myfawwaz.android.jawa.widget.presentation.tasks.TasksDashboardWidget
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.ui.theme.Purple
-import com.myfawwaz.app.mybrain.util.Constants
+import com.myfawwaz.android.jawa.widget.ui.theme.Purple
+import com.myfawwaz.android.jawa.widget.util.Constants
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
@@ -139,6 +141,10 @@ fun DashboardScreen(
                 }
             }
             item {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    HeatMapCal() // menampilkan map
+                }
+                /*
                 SpaceWideCard(
                     title = stringResource(R.string.calendar),
                     image = R.drawable.calendar_img,
@@ -147,6 +153,8 @@ fun DashboardScreen(
                     navController.navigate(route="Contoh")
 
                 }
+
+                 */
             }
             item { Spacer(Modifier.height(65.dp)) }
         }
@@ -163,5 +171,6 @@ fun PrevHome(){
         backgroundColor = Purple
     ){
           }
+    HeatMapCal()
 
 }

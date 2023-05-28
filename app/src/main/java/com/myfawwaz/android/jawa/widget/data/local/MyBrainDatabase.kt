@@ -1,11 +1,11 @@
-package com.myfawwaz.app.mybrain.data.local
+package com.myfawwaz.android.jawa.widget.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.myfawwaz.app.mybrain.data.local.converters.DBConverters
-import com.myfawwaz.app.mybrain.data.local.dao.*
-import com.myfawwaz.app.mybrain.domain.model.*
+import com.myfawwaz.android.jawa.widget.data.local.dao.*
+import com.myfawwaz.android.jawa.widget.data.local.converters.DBConverters
+import com.myfawwaz.android.jawa.widget.domain.model.*
 
 @Database(
     entities = [Note::class, Task::class, DiaryEntry::class, Bookmark::class, Alarm::class, NoteFolder::class],

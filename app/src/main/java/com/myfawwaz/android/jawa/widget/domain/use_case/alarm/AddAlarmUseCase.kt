@@ -4,7 +4,7 @@ import android.app.AlarmManager
 import android.content.Context
 import com.myfawwaz.android.jawa.widget.domain.model.Alarm
 import com.myfawwaz.android.jawa.widget.domain.repository.AlarmRepository
-import com.myfawwaz.app.mybrain.util.alarms.scheduleAlarm
+import com.myfawwaz.android.jawa.widget.util.alarms.scheduleAlarm
 import javax.inject.Inject
 
 class AddAlarmUseCase @Inject constructor(

@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.myfawwaz.android.jawa.widget.domain.model.DiaryEntry
-import com.myfawwaz.app.mybrain.util.date.DateDay
+import com.myfawwaz.android.jawa.widget.util.date.DateDay
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

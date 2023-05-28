@@ -1,7 +1,7 @@
 package com.myfawwaz.android.jawa.widget.presentation.tasks
 
 import com.myfawwaz.android.jawa.widget.domain.model.Task
-import com.myfawwaz.app.mybrain.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.Order
 
 sealed class TaskEvent {
     data class CompleteTask(val task: Task, val complete: Boolean) : TaskEvent()

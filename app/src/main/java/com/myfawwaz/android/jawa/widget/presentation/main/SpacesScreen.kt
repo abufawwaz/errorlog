@@ -2,6 +2,7 @@
 package com.myfawwaz.android.jawa.widget.presentation.main
 
 import android.annotation.SuppressLint
+import android.os.Build
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.MaterialTheme
@@ -10,7 +11,6 @@ import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -20,9 +20,11 @@ import androidx.navigation.compose.rememberNavController
 import com.myfawwaz.android.jawa.widget.presentation.main.components.SpaceRegularCard
 import com.myfawwaz.android.jawa.widget.presentation.main.components.SpaceWideCard
 import com.myfawwaz.android.jawa.widget.presentation.util.Screen
-import com.myfawwaz.app.mybrain.ui.theme.*
-import com.myfawwaz.app.mybrain.R
-
+import com.myfawwaz.android.jawa.widget.ui.theme.Green
+import com.myfawwaz.android.jawa.widget.ui.theme.Orange
+import com.myfawwaz.android.jawa.widget.ui.theme.Purple
+import com.myfawwaz.android.jawa.widget.ui.theme.Red
+import com.myfawwaz.android.jawa.widget.R
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun SpacesScreen(
@@ -131,6 +133,14 @@ fun SpacesScreen(
                     navController.navigate(Screen.CalendarScreen.route)
                 }
             }
+            item {
+            /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                Example3Page()
+            }
+
+             */
+            }
+
             item { Spacer(Modifier.height(60.dp)) }
         }
     }

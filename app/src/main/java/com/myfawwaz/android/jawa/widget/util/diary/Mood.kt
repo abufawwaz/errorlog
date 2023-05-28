@@ -7,7 +7,7 @@ import com.myfawwaz.android.jawa.widget.ui.theme.Blue
 import com.myfawwaz.android.jawa.widget.ui.theme.Green
 import com.myfawwaz.android.jawa.widget.ui.theme.Orange
 import com.myfawwaz.android.jawa.widget.ui.theme.Purple
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 
 enum class Mood(@DrawableRes val icon: Int, val color: Color, @StringRes val title: Int, val value: Int) {
     AWESOME(R.drawable.ic_very_happy, Green, R.string.awesome, 5),

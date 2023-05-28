@@ -24,13 +24,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
-import com.myfawwaz.app.mybrain.R
-import com.myfawwaz.app.mybrain.presentation.notes.NoteEvent
-import com.myfawwaz.app.mybrain.presentation.notes.NoteItem
-import com.myfawwaz.app.mybrain.presentation.notes.NotesViewModel
-import com.myfawwaz.app.mybrain.presentation.util.Screen
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.ItemView
+import com.myfawwaz.android.jawa.widget.R
+import com.myfawwaz.android.jawa.widget.presentation.notes.NoteEvent
+import com.myfawwaz.android.jawa.widget.presentation.notes.NoteItem
+import com.myfawwaz.android.jawa.widget.presentation.notes.NotesViewModel
+import com.myfawwaz.android.jawa.widget.presentation.util.Screen
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.ItemView
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

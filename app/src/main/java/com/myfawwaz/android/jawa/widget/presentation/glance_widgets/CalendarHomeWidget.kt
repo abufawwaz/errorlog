@@ -22,8 +22,8 @@ import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 import com.myfawwaz.android.jawa.widget.domain.use_case.calendar.GetAllEventsUseCase
 import com.myfawwaz.android.jawa.widget.domain.use_case.settings.GetSettingsUseCase
 import com.myfawwaz.android.jawa.widget.presentation.calendar.CalendarHomeScreenWidget
-import com.myfawwaz.app.mybrain.util.Constants
-import com.myfawwaz.app.mybrain.util.settings.toIntList
+import com.myfawwaz.android.jawa.widget.util.Constants
+import com.myfawwaz.android.jawa.widget.util.settings.toIntList
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.first

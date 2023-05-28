@@ -17,11 +17,11 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
 import com.google.gson.Gson
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.CalendarWidgetItemClick
 import com.myfawwaz.android.jawa.widget.presentation.glance_widgets.eventJson
-import com.myfawwaz.app.mybrain.util.date.formatEventStartEnd
+import com.myfawwaz.android.jawa.widget.util.date.formatEventStartEnd
 
 @Composable
 fun CalendarEventWidgetItem(

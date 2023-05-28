@@ -2,7 +2,7 @@ package com.myfawwaz.android.jawa.widget.domain.use_case.calendar
 
 import com.myfawwaz.android.jawa.widget.domain.model.CalendarEvent
 import com.myfawwaz.android.jawa.widget.domain.repository.CalendarRepository
-import com.myfawwaz.app.mybrain.util.date.formatDateForMapping
+import com.myfawwaz.android.jawa.widget.util.date.formatDateForMapping
 import javax.inject.Inject
 
 class GetAllEventsUseCase @Inject constructor(

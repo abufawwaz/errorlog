@@ -16,9 +16,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.Bookmark
-import com.myfawwaz.app.mybrain.util.bookmarks.isValidUrl
+import com.myfawwaz.android.jawa.widget.util.bookmarks.isValidUrl
 
 @Composable
 fun BookmarkItem(

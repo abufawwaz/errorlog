@@ -21,13 +21,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.myfawwaz.app.mybrain.R
+import com.myfawwaz.android.jawa.widget.R
 import com.myfawwaz.android.jawa.widget.domain.model.SubTask
 import com.myfawwaz.android.jawa.widget.domain.model.Task
-import com.myfawwaz.app.mybrain.util.date.formatDateDependingOnDay
-import com.myfawwaz.app.mybrain.util.settings.Priority
-import com.myfawwaz.app.mybrain.util.settings.toInt
-import com.myfawwaz.app.mybrain.util.settings.toPriority
+import com.myfawwaz.android.jawa.widget.util.date.formatDateDependingOnDay
+import com.myfawwaz.android.jawa.widget.util.settings.Priority
+import com.myfawwaz.android.jawa.widget.util.settings.toInt
+import com.myfawwaz.android.jawa.widget.util.settings.toPriority
 import java.util.*
 
 @Composable

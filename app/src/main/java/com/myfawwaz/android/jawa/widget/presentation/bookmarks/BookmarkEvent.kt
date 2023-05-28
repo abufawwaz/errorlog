@@ -1,8 +1,8 @@
 package com.myfawwaz.android.jawa.widget.presentation.bookmarks
 
 import com.myfawwaz.android.jawa.widget.domain.model.Bookmark
-import com.myfawwaz.app.mybrain.util.settings.ItemView
-import com.myfawwaz.app.mybrain.util.settings.Order
+import com.myfawwaz.android.jawa.widget.util.settings.ItemView
+import com.myfawwaz.android.jawa.widget.util.settings.Order
 
 sealed class BookmarkEvent {
     data class AddBookmark(val bookmark: Bookmark) : BookmarkEvent()

@@ -5,7 +5,6 @@ package com.myfawwaz.android.jawa.widget.presentation.main.components
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -26,7 +25,7 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.myfawwaz.android.jawa.widget.presentation.util.BottomNavItem
-import com.myfawwaz.app.mybrain.ui.MaxTextLenght
+import com.myfawwaz.android.jawa.widget.ui.MaxTextLenght
 
 @ExperimentalAnimationApi
 @Composable
@@ -69,7 +68,7 @@ fun MainBottomBar(
                             if(currentDestination?.route == it.route) selsetedIt = true
                             AnimatedVisibility(visible = selsetedIt) {
                                 Text(
-                                    text = ""+MaxTextLenght.MaxTextLenghtText(stringResource(it.title),7,".."),
+                                    text = ""+ MaxTextLenght.MaxTextLenghtText(stringResource(it.title),7,".."),
                                     color = contentColor
                                 )
                             }

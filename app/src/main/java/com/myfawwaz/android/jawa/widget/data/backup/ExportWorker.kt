@@ -1,4 +1,4 @@
-package com.myfawwaz.app.mybrain.data.backup
+package com.myfawwaz.android.jawa.widget.data.backup
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -11,13 +11,13 @@ import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import com.myfawwaz.app.mybrain.data.local.dao.BookmarkDao
-import com.myfawwaz.app.mybrain.data.local.dao.DiaryDao
-import com.myfawwaz.app.mybrain.data.local.dao.NoteDao
-import com.myfawwaz.app.mybrain.data.local.dao.TaskDao
-import com.myfawwaz.app.mybrain.domain.model.NotesBackUp
-import com.myfawwaz.app.mybrain.util.BackupUtil.toJson
-import com.myfawwaz.app.mybrain.util.Constants
+import com.myfawwaz.android.jawa.widget.data.local.dao.BookmarkDao
+import com.myfawwaz.android.jawa.widget.data.local.dao.DiaryDao
+import com.myfawwaz.android.jawa.widget.data.local.dao.NoteDao
+import com.myfawwaz.android.jawa.widget.data.local.dao.TaskDao
+import com.myfawwaz.android.jawa.widget.domain.model.NotesBackUp
+import com.myfawwaz.android.jawa.widget.util.BackupUtil.toJson
+import com.myfawwaz.android.jawa.widget.util.Constants
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.Dispatchers

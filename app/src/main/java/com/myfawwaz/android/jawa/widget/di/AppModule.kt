@@ -1,13 +1,13 @@
-package com.myfawwaz.app.mybrain.di
+package com.myfawwaz.android.jawa.widget.di
 
 import android.content.Context
 import androidx.room.Room
-import com.myfawwaz.app.mybrain.app.dataStore
-import com.myfawwaz.app.mybrain.data.local.MyBrainDatabase
-import com.myfawwaz.app.mybrain.data.local.dao.*
-import com.myfawwaz.app.mybrain.data.local.migrations.MIGRATION_1_2
-import com.myfawwaz.app.mybrain.data.repository.*
-import com.myfawwaz.app.mybrain.domain.repository.*
+import com.myfawwaz.android.jawa.widget.app.dataStore
+import com.myfawwaz.android.jawa.widget.data.local.MyBrainDatabase
+import com.myfawwaz.android.jawa.widget.data.local.dao.*
+import com.myfawwaz.android.jawa.widget.data.repository.*
+import com.myfawwaz.android.jawa.widget.data.local.migrations.MIGRATION_1_2
+import com.myfawwaz.android.jawa.widget.domain.repository.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.myfawwaz.app.mybrain.data.local.migrations
+package com.myfawwaz.android.jawa.widget.data.local.migrations
 
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
